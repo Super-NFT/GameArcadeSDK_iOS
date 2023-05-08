@@ -1,0 +1,11 @@
+framework module CoinsArcadeSDK {
+  umbrella header "CoinsArcadeSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CoinsArcadeSDK.Swift {
+  header "CoinsArcadeSDK-Swift.h"
+  requires objc
+}
