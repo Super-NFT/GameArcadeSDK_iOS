@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/CoinsArcadeSDK-Swift.h</key>
 		<data>
-		1sozk67FFCIu8xoz9eg214yzOcE=
+		Ug3sbtFHLgvHhY4NfRzpTd0gvv0=
 		</data>
 		<key>Headers/CoinsArcadeSDK.h</key>
 		<data>
 		e5ml9u8tF9AACIBcG9wJjpx8PMU=
+		</data>
+		<key>Headers/CoinsArcadeSDK.swift</key>
+		<data>
+		1MR6YDRGHNcrUpJJj+PaBrAgJ7Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		233/3szdY3tp9AnEYhYymdlAum0=
+		7vRkGlh2VsSu6Qd/5E/c2S05sps=
 		</data>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0ZaAUy2/t/icFSyNtXACsc9uR+o=
+		pnhgp+l4ulmtZzZhO1m25BnAmWg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,43 +45,34 @@
 	<dict>
 		<key>Headers/CoinsArcadeSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1sozk67FFCIu8xoz9eg214yzOcE=
-			</data>
 			<key>hash2</key>
 			<data>
-			3eTNsJIVFPE5v63WIofiYApcSJi+P4B6SdC64307d40=
+			tx97+xhUXy/V9RR8SSGVvM0dZfYOUkT5+g+KIGTMXyg=
 			</data>
 		</dict>
 		<key>Headers/CoinsArcadeSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e5ml9u8tF9AACIBcG9wJjpx8PMU=
-			</data>
 			<key>hash2</key>
 			<data>
 			L/0Q+THes32YCjcGssiWw0sE1DI1ynxfbxjVGNwad7E=
 			</data>
 		</dict>
-		<key>Modules/CoinsArcadeSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Headers/CoinsArcadeSDK.swift</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			233/3szdY3tp9AnEYhYymdlAum0=
-			</data>
 			<key>hash2</key>
 			<data>
-			6IXlXjbm5HAsDtXJCrBQCIOG76XsN6HMQaVye2Be9lE=
+			STQLnVIO5Lbhrxdtw6dz47zVU/YIeNzjVdOx8enx+Cc=
+			</data>
+		</dict>
+		<key>Modules/CoinsArcadeSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ixSTjYb1M+BHg8ezNisUaN23HRgpuZGjv8PXtMziTq4=
 			</data>
 		</dict>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
@@ -85,10 +80,6 @@
 		</dict>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			exUOlgvIE3nhl33lOAUIe4cZrbg=
-			</data>
 			<key>hash2</key>
 			<data>
 			nlspxWtdwanhaz8uXYlbsIWUOUl0LbT83lHryslRyMY=
@@ -96,21 +87,13 @@
 		</dict>
 		<key>Modules/CoinsArcadeSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0ZaAUy2/t/icFSyNtXACsc9uR+o=
-			</data>
 			<key>hash2</key>
 			<data>
-			0aC2VLjXq1FSCMihEByDmLUYJq6hbEEl33M2CjQV0ak=
+			nbn59N7p3RZ1Y7Qt6bwLI5ktKfpLeeIIKcEQVBrwokA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			22cfKcH5QIYD7zAWg1gJEVxZINw=
-			</data>
 			<key>hash2</key>
 			<data>
 			L/E8EAnoS7A6dMj6lnfIwSy6OZqIGLMpTHtOx/50YsI=

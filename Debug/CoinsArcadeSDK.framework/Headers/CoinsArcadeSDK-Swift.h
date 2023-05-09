@@ -281,14 +281,35 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSURL;
 
 SWIFT_CLASS("_TtC14CoinsArcadeSDK14CoinsArcadeSDK")
 @interface CoinsArcadeSDK : NSObject
++ (BOOL)canHandleURLWith:(NSURL * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
++ (void)handleURLWith:(NSURL * _Nonnull)url;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+@class NSString;
 
+@interface CoinsArcadeSDK (SWIFT_EXTENSION(CoinsArcadeSDK))
++ (BOOL)isBindWithCoinsWithAddress:(NSString * _Nonnull)address uuid:(NSString * _Nonnull)uuid accessToken:(NSString * _Nonnull)accessToken SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)isCoinsAppInstalled SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface CoinsArcadeSDK (SWIFT_EXTENSION(CoinsArcadeSDK))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable coinsArcadeDidAccessToken)(NSString * _Nonnull);)
++ (void (^ _Nullable)(NSString * _Nonnull))coinsArcadeDidAccessToken SWIFT_WARN_UNUSED_RESULT;
++ (void)setCoinsArcadeDidAccessToken:(void (^ _Nullable)(NSString * _Nonnull))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable coinsArcadeDidBindAddress)(BOOL, NSString * _Nonnull);)
++ (void (^ _Nullable)(BOOL, NSString * _Nonnull))coinsArcadeDidBindAddress SWIFT_WARN_UNUSED_RESULT;
++ (void)setCoinsArcadeDidBindAddress:(void (^ _Nullable)(BOOL, NSString * _Nonnull))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable coinsArcadeDidDeposit)(BOOL, NSString * _Nonnull);)
++ (void (^ _Nullable)(BOOL, NSString * _Nonnull))coinsArcadeDidDeposit SWIFT_WARN_UNUSED_RESULT;
++ (void)setCoinsArcadeDidDeposit:(void (^ _Nullable)(BOOL, NSString * _Nonnull))value;
+@end
 
 
 SWIFT_EXTERN void bindWithCoins(NSString * _Nonnull address, NSString * _Nonnull uuid, NSString * _Nonnull accessToken);
